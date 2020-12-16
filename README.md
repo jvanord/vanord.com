@@ -1,2 +1,2 @@
-# vanord.com
-Personal Website
+# VanOrd: Dot Com
+My personal website and playground for web frameworks.
