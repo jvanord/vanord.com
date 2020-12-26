@@ -5,7 +5,6 @@ module.exports = {
   },
   extends: 'vuetify',
   rules: {
-    'vuetify': 'warn',
     'vue/max-attributes-per-line': [
       'error', {
         'singleline': 5,
