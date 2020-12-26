@@ -34,16 +34,14 @@
           >
             <base-heading>Welcome!</base-heading>
             <base-text>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.<br>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.
+              You found my personal home page.
+              I don't even know how because I don't advertise it to anyone.
+              But since you're here, feel free to poke around.<br>
+              Mostly I just use this site to experiment with new stuff.
+              If you're trying to get in touch with me for some reason,
+              there's a form down below.
             </base-text>
-            <base-btn class="mt-4">
+            <base-btn v-if="false" class="mt-4">
               Learn More!
             </base-btn>
           </v-col>

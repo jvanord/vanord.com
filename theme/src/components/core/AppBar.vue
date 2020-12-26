@@ -8,10 +8,11 @@
     <v-slide-x-transition>
       <v-img
         v-if="showLogo"
-        :src="require('@/assets/logo.png')"
+        :src="require('@/assets/jay-logo-bold.png')"
         class="shrink"
         contain
         height="50"
+        aria-label="Jay VanOrd"
       />
     </v-slide-x-transition>
 
@@ -20,6 +21,7 @@
     <social-media />
 
     <base-btn
+      v-if="showBuyButton"
       class="ml-3"
       large
       href="https://store.vuetifyjs.com/product/freelancer-theme-free?ref=freelancer"
@@ -47,6 +49,7 @@
     data: () => ({
       showLogo: false,
       isScrolling: false,
+      showBuyButton: false,
     }),
 
     methods: {
